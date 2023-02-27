@@ -6,7 +6,6 @@ lista_saques = [0,0,0]
 lista_saldos = [0,0,0]
 data_antiga = 0
 extrato =''
-#lista_usuarios = list()
 lista_usuarios = [["nome", "data_nascimento", "00000000000", "endereco"]]
 lista_contas_e_usuarios = list()
 lista_contas = [[0, "0001", "00000000000"]]
@@ -69,7 +68,6 @@ def criar_conta(lista_contas, lista_usuarios, lista_contas_e_usuarios, valor_cpf
             break
     else: #Se o usuario nao existir
         print(f"Usuario com CPF {valor_cpf} nao cadastrado! Favor cadastrar primeiro!")
-
 
 def listar_contas(lista_contas):
      print(lista_contas)
